@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.recipe {
+    width: 700px;
+    height: 110vh;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 24px;
+    padding: 50px;
+    background: var(--White, #FFF);
+}
+.summer {
+    width: 600px;
+    border-radius: 12px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.recipe-title h2 {
+    color: var(--Dark-Charcoal, #312E2C);
+    font-family: "Young Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 40px */
+    margin-bottom: 24px;
+}
+
+.recipe-title p {
+    color: var(--Wenge-Brown, #5F564D);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    margin-bottom: 24px;
+}
+
+.recipe-title-span {
+    border-radius: 12px;
+    background: var(--Snow, #FFF7FB);
+    display: flex;
+    padding: 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.recipe-title-span h2 {
+    color: var(--Dark-Raspberry, #7A284E);
+    font-family: Outfit;
+    align-self: stretch;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 20px */
+}
+
+.recipe-title-span span {
+    color: var(--Wenge-Brown, #5F564D);
+
+    /* Body (Regular) */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 24px;
+    /* 24px */
+}
+
+.recipe-title-span li {
+    color: var(--Wenge-Brown, #5F564D);
+    font-size: 16px;
+  
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.recipe-instructions {
+    
+}
